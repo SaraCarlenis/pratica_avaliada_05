@@ -21,7 +21,7 @@ import jakarta.validation.constraints.Positive;
 import jakarta.validation.constraints.Size;
 
 @Entity
-@Table(name = "tb_clientes")
+@Table(name = "tb_pedidos")
 
 public class Pedido {
 	
