@@ -24,7 +24,7 @@ import com.generation.infostore.repository.ClienteRepository;
 import jakarta.validation.Valid;
 
 @RestController
-@RequestMapping("clientes")
+@RequestMapping("/clientes")
 @CrossOrigin(origins = "*", allowedHeaders = "*")
 
 public class ClienteController {
